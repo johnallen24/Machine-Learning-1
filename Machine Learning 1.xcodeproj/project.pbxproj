@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB78F4A720F3B2D600EC2B4C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78F4A620F3B2D600EC2B4C /* Helpers.swift */; };
 		ABAD8E8120EFE16A002A5F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD8E8020EFE16A002A5F89 /* AppDelegate.swift */; };
 		ABAD8E8320EFE16A002A5F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD8E8220EFE16A002A5F89 /* ViewController.swift */; };
 		ABAD8E8620EFE16A002A5F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAD8E8420EFE16A002A5F89 /* Main.storyboard */; };
 		ABAD8E8820EFE16D002A5F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAD8E8720EFE16D002A5F89 /* Assets.xcassets */; };
 		ABAD8E8B20EFE16D002A5F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAD8E8920EFE16D002A5F89 /* LaunchScreen.storyboard */; };
+		ABAD8E9320EFE1A5002A5F89 /* ViewController+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD8E9220EFE1A5002A5F89 /* ViewController+Camera.swift */; };
+		ABAD8E9520EFE94B002A5F89 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD8E9420EFE94B002A5F89 /* PreviewView.swift */; };
+		ABAD8E9720EFECE1002A5F89 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ABAD8E9620EFECE1002A5F89 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB78F4A620F3B2D600EC2B4C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		ABAD8E7D20EFE16A002A5F89 /* Machine Learning 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Machine Learning 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAD8E8020EFE16A002A5F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABAD8E8220EFE16A002A5F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		ABAD8E8720EFE16D002A5F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABAD8E8A20EFE16D002A5F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABAD8E8C20EFE16D002A5F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAD8E9220EFE1A5002A5F89 /* ViewController+Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Camera.swift"; sourceTree = "<group>"; };
+		ABAD8E9420EFE94B002A5F89 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		ABAD8E9620EFECE1002A5F89 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				ABAD8E8020EFE16A002A5F89 /* AppDelegate.swift */,
 				ABAD8E8220EFE16A002A5F89 /* ViewController.swift */,
+				AB78F4A620F3B2D600EC2B4C /* Helpers.swift */,
+				ABAD8E9620EFECE1002A5F89 /* Inceptionv3.mlmodel */,
+				ABAD8E9220EFE1A5002A5F89 /* ViewController+Camera.swift */,
+				ABAD8E9420EFE94B002A5F89 /* PreviewView.swift */,
 				ABAD8E8420EFE16A002A5F89 /* Main.storyboard */,
 				ABAD8E8720EFE16D002A5F89 /* Assets.xcassets */,
 				ABAD8E8920EFE16D002A5F89 /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAD8E9720EFECE1002A5F89 /* Inceptionv3.mlmodel in Sources */,
+				AB78F4A720F3B2D600EC2B4C /* Helpers.swift in Sources */,
 				ABAD8E8320EFE16A002A5F89 /* ViewController.swift in Sources */,
+				ABAD8E9520EFE94B002A5F89 /* PreviewView.swift in Sources */,
+				ABAD8E9320EFE1A5002A5F89 /* ViewController+Camera.swift in Sources */,
 				ABAD8E8120EFE16A002A5F89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
